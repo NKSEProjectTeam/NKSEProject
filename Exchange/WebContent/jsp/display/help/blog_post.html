@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <title>Bingo！-求助专区-帖子详情</title>
+
+  <link rel="shortcut icon" href="小图标.ico">
+  <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/grid.css" media="screen" rel="stylesheet" type="text/css">
+
+  <script src="js/jquery-1.7.2.min.js" ></script>
+  <script src="js/html5.js" ></script>
+  <script src="js/jflow.plus.js" ></script>
+  <script src="js/jquery.carouFredSel-5.2.2-packed.js"></script>
+  <script src="js/checkbox.js"></script>
+  <script src="js/radio.js"></script>
+  <script src="js/selectBox.js"></script>
+
+  <script>
+	$(document).ready(function() {
+		$("select").selectBox();
+	});
+  </script>
+
+  <script>
+	$(document).ready(function(){
+		$("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "984px",  // this is the width for the content-slider
+			height: "480px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+		});
+	});
+  </script>
+  <script>
+	$(function() {
+	  $('#list_product').carouFredSel({
+		prev: '#prev_c1',
+		next: '#next_c1',
+		auto: false
+	  });
+          $('#list_product2').carouFredSel({
+		prev: '#prev_c2',
+		next: '#next_c2',
+		auto: false
+	  });
+	  $('#list_banners').carouFredSel({
+		prev: '#ban_prev',
+		next: '#ban_next',
+		scroll: 1,
+		auto: false
+	  });
+	  $(window).resize();
+	});
+  </script>
+  <script>
+       $(document).ready(function(){
+	      $("button").click(function(){
+		     $(this).addClass('click')
+	      });
+       })
+  </script>
+
+</head>
+<body>
+  <div class="container_12">
+    <!-- #top -->
+    <header id="branding">
+      <div class="grid_3">
+        <hgroup>
+          <h1 id="site_logo" ><a href="#" title=""><img src="../images/bingo logo.png" alt="Online Store Theme Logo" width="259" height="132"/></a></h1>
+        </hgroup>
+      </div>
+      <!-- .grid_3 -->
+
+      <div class="grid_3">
+        <form class="search">
+          <input type="text" name="search" class="entry_form" value="" placeholder="请在此输入要查找的内容..."/>
+	</form>
+      </div><!-- .grid_3 -->
+
+      <div class="grid_6">
+        <ul id="cart_nav">
+          <li>
+            <a href="" class="cart_li STYLE1">退出登录</a>
+          </li>
+        </ul>
+
+        <nav class="private">
+          <ul>
+            <li><a href="../我的订单.html">我的订单</a></li>
+        <li class="separator">|</li>
+            <li><a href="#">我的换物</a></li>
+		<li class="separator">|</li>
+            <li><a href="#">我的出租</a></li>
+		<li class="separator">|</li>
+            <li><a href="#">我的帖子</a></li>
+        <li class="separator">|</li>
+            <li><a href="../帖子发布.html">发布帖子</a></li>
+          </ul>
+        </nav><!-- .private -->
+      </div><!-- .grid_6 -->
+    </header><!-- #branding -->
+</div><!-- .container_12 -->
+
+  <div class="clear"></div>
+
+  <div id="block_nav_primary">
+    <div class="container_12">
+      <div class="grid_12">
+        <nav class="primary">
+          <ul>
+            <li class="curent"><a href="blog.html">返回上级</a></li>
+            <li>
+              <a href="#">商品分类</a>
+              <ul class="sub">
+		<li><a href="#">图书</a>
+              <ul class="sub" style="margin-left:200px">
+              <li><a href="">教科书</a></li>
+              <li><a href="">课外书</a></li>
+              <li><a href="">音像</a></li>
+              </ul>
+        </li>
+		<li><a href="#">电子</a>
+              <ul class="sub" style="margin-left:200px">
+              <li><a href="">手机类</a></li>
+              <li><a href="">电脑类</a></li>
+              <li><a href="">数码类</a></li>
+              </ul>
+        </li>
+		<li><a href="#">体育</a>
+              <ul class="sub" style="margin-left:200px">
+              <li><a href="">体育器械</a></li>
+              <li><a href="">辅助用品</a></li>
+              </ul>
+        </li>
+		<li><a href="#">生活</a>
+               <ul class="sub" style="margin-left:200px">
+              <li><a href="">日常用品</a></li>
+              <li><a href="">家用电器</a></li>
+              <li><a href="">化妆品</a></li>
+              <li><a href="">娱乐</a></li>
+              <li><a href="">特产</a></li>
+              </ul>
+        </li>
+        <li><a href="#">服饰</a>
+              <ul class="sub" style="margin-left:200px">
+              <li><a href="">男装</a></li>
+              <li><a href="">女装</a></li>
+              <li><a href="">箱包</a></li>
+              <li><a href="">饰品</a></li>
+              </ul>
+        </li>
+        <li><a href="#">乐器</a></li>
+		<li><a href="#">虚拟</a></li>
+		<li><a href="#">其他</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav><!-- .primary -->
+      </div><!-- .grid_12 -->
+    </div><!-- .container_12 -->
+  </div><!-- .block_nav_primary -->
+
+  <div class="clear"></div>
+
+  <div class="container_12"><!-- .grid_12 -->
+</div><!-- .container_12 -->
+
+<div class="clear"></div>
+
+  <section id="main">
+    <div class="container_12">
+       <div id="sidebar" class="grid_3">
+         <aside id="manufacturers">
+           <h3>帖子分类</h3>
+           <nav class="left_menu">
+             <ul>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li class="last"></li>
+             </ul>
+           </nav>
+           <!-- .left_menu -->
+         </aside>
+         <!-- #categories_nav -->
+         <aside id="banners"> <a id="ban_next" class="next arows" href="#"><span>Next</span></a> <a id="ban_prev" class="prev arows" href="#"><span>Prev</span></a>
+           <h3>商品推荐</h3>
+           <div class="list_carousel">
+             <ul id="list_banners">
+               <li class="banner"><a href="#">
+                 <div class="prev"> <img src="images/banner.png" alt="" title="" /></div>
+                 <!-- .prev -->
+                 <h2>New smells</h2>
+                 <p>in the next series</p>
+               </a></li>
+               <li class="banner"><a href="#">
+                 <div class="prev"> <img src="images/banner.png" alt="" title="" /></div>
+                 <!-- .prev -->
+                 <h2>New smells</h2>
+                 <p>in the next series</p>
+               </a></li>
+               <li class="banner"><a href="#">
+                 <div class="prev"> <img src="images/banner.png" alt="" title="" /></div>
+                 <!-- .prev -->
+                 <h2>New smells</h2>
+                 <p>in the next series</p>
+               </a></li>
+             </ul>
+           </div>
+           <!-- .list_carousel -->
+         </aside>
+         <!-- #categories_nav -->
+         <aside id="tags">
+           <h3>标签</h3>
+         <a class="t1" href="#">california</a> <a class="t2" href="#">canada</a> <a class="t3" href="#">canon</a> <a class="t4" href="#">cat</a> <a class="t5" href="#">chicago</a> <a class="t6" href="#">christmas</a> <a class="t7" href="#">mars</a> <a class="t8" href="#">church</a> <a class="t9" href="#">city</a> <a class="t10" href="#">clouds</a> <a class="t11" href="#">color</a> <a class="t12" href="#">concert</a> <a class="t13" href="#">dance</a> <a class="t14" href="#">day</a> <a class="t15" href="#">dog</a> <a class="t16" href="#">england</a> <a class="t17" href="#">europe</a> </aside>
+         <!-- #tags -->
+
+       </div><!-- .sidebar -->
+
+       <div id="content" class="grid_9">
+		<article class="post view_post">
+			<h1 class="post_title">Citrus Magic Solid Air Freshener</h1>
+			<div class="content_article">
+				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+				<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+			</div><!-- .content_article -->
+			<div class="footer_article"><span>Mike Example, <time datetime="2012-11-03">03.11.2012</time></span>  |  <span>Posted in <a href="#">Sports</a>, <a href="#">Movies</a></span>
+			</div>
+		</article><!-- .comments_blog -->
+
+	  <form class="add_comments">
+			<h4>&nbsp;</h4><!-- .nickname --><!-- .your_review --><!-- .text_review -->
+	  </form><!-- .add_comments -->
+
+       </div><!-- #content -->
+
+      <div class="clear"></div>
+
+    </div><!-- .container_12 -->
+  </section><!-- #main -->
+
+  <div class="clear"></div>
+
+  <footer>
+    <div class="f_navigation">
+      <div class="container_12">
+        <div class="grid_3">
+          <h3>联系我们</h3>
+          <ul class="f_contact">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul><!-- .f_contact -->
+        </div><!-- .grid_3 -->
+
+        <div class="grid_3">
+          <h3>相关信息</h3>
+          <nav class="f_menu">
+            <ul>
+
+              <li><a href="#">关于我们</a></li>
+              <li><a href="#">隐私政策</a></li>
+              <li><a href="#">相关条款</a></li>
+              <li></li>
+            </ul>
+          </nav><!-- .private -->
+        </div><!-- .grid_3 -->
+
+        <div class="grid_3">
+          <h3>客户服务</h3>
+          <nav class="f_menu">
+            <ul>
+              <li><a href="contact_us.html">联系我们</a></li>
+              <li><a href="#">返回首页</a></li>
+              <li><a href="#">帮助文档</a></li>
+            </ul>
+          </nav><!-- .private -->
+        </div><!-- .grid_3 -->
+
+        <div class="grid_3">
+          <h3>我的账户</h3>
+          <nav class="f_menu">
+            <ul>
+              <li><a href="#">我的物品</a></li>
+              <li><a href="#">我的订单</a></li>
+              <li><a href="#">最新消息</a></li>
+            </ul>
+          </nav><!-- .private -->
+        </div><!-- .grid_3 -->
+
+        <div class="clear"></div>
+      </div><!-- .container_12 -->
+    </div><!-- .f_navigation -->
+
+    <div class="f_info">
+      <div class="container_12">
+        <div class="grid_6">
+          <p class="copyright">&nbsp;</p>
+        </div><!-- .grid_6 -->
+
+        <!-- .grid_6 -->
+
+          <div class="grid_6">
+            <a href="#"><img src="../images/人人2.png" width="35" height="21" align="right"></a>
+            <a href="#"><img src="../images/朋友网2.png" width="30" height="30" align="right"></a>
+            <a href="#"><img src="../images/腾讯微博2.png" width="30" height="30" align="right"></a>
+            <a href="#"><img src="../images/新浪微博2.png" width="30" height="30" align="right"></a>
+            <a href="#"><img src="../images/微信2.png" width="30" height="30" align="right"></a>
+            <a href="#"><img src="../images/QQ空间2.png" width="30" height="30" align="right"></a>
+            <a href="#"><img src="../images/QQ2.png" width="30" height="30" align="right"></a>
+        </div><!-- .grid_6 -->
+
+        <div class="clear"></div>
+      </div><!-- .container_12 -->
+    </div><!-- .f_info -->
+  </footer>
+
+</body>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+</html>
