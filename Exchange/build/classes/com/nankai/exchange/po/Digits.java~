@@ -1,0 +1,125 @@
+package com.chinasofti.exchange.po;
+
+import java.io.Serializable;
+import java.util.Date;
+
+@SuppressWarnings("serial")
+/*
+ * digitid int not null auto_increment, posttime datetime not null, digitbrand
+ * varchar(50) not null, digitmodel varchar(50) not null, digistate int not
+ * null, digitmark text not null, digitresource varchar(50), digittype
+ * varchar(50) not null, uid int not null,
+ */
+public class Digits implements Serializable {
+	private int digitid;
+	private Date posttime;
+	private String digitbrand;
+	private String digitmodel;
+	private int digitstate;
+	private String digitmark;
+	private String digitresource;
+	private String digittype;
+	private int uid;
+
+	public Digits() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Digits(int digitid, Date posttime, String digitbrand,
+			String digitmodel, int digitstate, String digitmark,
+			String digitresource, String digittype, int uid) {
+		super();
+		this.digitid = digitid;
+		this.posttime = posttime;
+		this.digitbrand = digitbrand;
+		this.digitmodel = digitmodel;
+		this.digitstate = digitstate;
+		this.digitmark = digitmark;
+		this.digitresource = digitresource;
+		this.digittype = digittype;
+		this.uid = uid;
+	}
+
+	public int getDigitid() {
+		return digitid;
+	}
+
+	public void setDigitid(int digitid) {
+		this.digitid = digitid;
+	}
+
+	public Date getPosttime() {
+		return posttime;
+	}
+
+	public void setPosttime(Date posttime) {
+		this.posttime = posttime;
+	}
+
+	public String getDigitbrand() {
+		return digitbrand;
+	}
+
+	public void setDigitbrand(String digitbrand) {
+		this.digitbrand = digitbrand;
+	}
+
+	public String getDigitmodel() {
+		return digitmodel;
+	}
+
+	public void setDigitmodel(String digitmodel) {
+		this.digitmodel = digitmodel;
+	}
+
+	public int getDigitstate() {
+		return digitstate;
+	}
+
+	public void setDigitstate(int digitstate) {
+		this.digitstate = digitstate;
+	}
+
+	public String getDigitmark() {
+		return digitmark;
+	}
+
+	public void setDigitmark(String digitmark) {
+		this.digitmark = digitmark;
+	}
+
+	public String getDigitresource() {
+		return digitresource;
+	}
+
+	public void setDigitresource(String digitresource) {
+		this.digitresource = digitresource;
+	}
+
+	public String getDigittype() {
+		return digittype;
+	}
+
+	public void setDigittype(String digittype) {
+		this.digittype = digittype;
+	}
+
+	public int getUid() {
+		return uid;
+	}
+
+	public void setUid(int uid) {
+		this.uid = uid;
+	}
+
+	@Override
+	public String toString() {
+		return "Digits [digitid=" + digitid + ", posttime=" + posttime
+				+ ", digitbrand=" + digitbrand + ", digitmodel=" + digitmodel
+				+ ", digitstate=" + digitstate + ", digitmark=" + digitmark
+				+ ", digitresource=" + digitresource + ", digittype="
+				+ digittype + ", uid=" + uid + "]";
+	}
+
+}

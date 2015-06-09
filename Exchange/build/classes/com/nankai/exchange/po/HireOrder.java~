@@ -1,0 +1,79 @@
+package com.chinasofti.exchange.po;
+
+import java.util.Date;
+
+public class HireOrder {
+
+	private int userid2;
+	private String username2;
+	private String name;
+	private Date hiretime;
+	private int typeid1;
+	private int typeid2;
+	private String hireresource;
+	public HireOrder() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public HireOrder(int userid2, String username2, String name, Date hiretime,
+			int typeid1, int typeid2, String hireresource) {
+		super();
+		this.userid2 = userid2;
+		this.username2 = username2;
+		this.name = name;
+		this.hiretime = hiretime;
+		this.typeid1 = typeid1;
+		this.typeid2 = typeid2;
+		this.hireresource = hireresource;
+	}
+	public int getUserid2() {
+		return userid2;
+	}
+	public void setUserid2(int userid2) {
+		this.userid2 = userid2;
+	}
+	public String getUsername2() {
+		return username2;
+	}
+	public void setUsername2(String username2) {
+		this.username2 = username2;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Date getHiretime() {
+		return hiretime;
+	}
+	public void setHiretime(Date hiretime) {
+		this.hiretime = hiretime;
+	}
+	public int getTypeid1() {
+		return typeid1;
+	}
+	public void setTypeid1(int typeid1) {
+		this.typeid1 = typeid1;
+	}
+	public int getTypeid2() {
+		return typeid2;
+	}
+	public void setTypeid2(int typeid2) {
+		this.typeid2 = typeid2;
+	}
+	public String getHireresource() {
+		return hireresource;
+	}
+	public void setHireresource(String hireresource) {
+		this.hireresource = hireresource;
+	}
+	@Override
+	public String toString() {
+		return "HireOrder [userid2=" + userid2 + ", username2=" + username2
+				+ ", name=" + name + ", hiretime=" + hiretime + ", typeid1="
+				+ typeid1 + ", typeid2=" + typeid2 + ", hireresource="
+				+ hireresource + "]";
+	}
+	
+}

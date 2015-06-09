@@ -1,0 +1,121 @@
+package com.nankai.exchange.po;
+
+import java.io.Serializable;
+import java.util.Date;
+
+@SuppressWarnings("serial")
+public class Instruments implements Serializable {
+	private int instrumentid;
+	private Date posttime;
+	private String instrumentbrand;
+	private String instrumentname;
+	private String instrumenttype;
+	private int instrumentstate;
+	private String instrumentmark;
+	private String instrumentresource;
+	private int uid;
+
+	public Instruments() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Instruments(int instrumentid, Date posttime, String instrumentbrand,
+			String instrumentname, String instrumenttype, int instrumentstate,
+			String instrumentmark, String instrumentresource, int uid) {
+		super();
+		this.instrumentid = instrumentid;
+		this.posttime = posttime;
+		this.instrumentbrand = instrumentbrand;
+		this.instrumentname = instrumentname;
+		this.instrumenttype = instrumenttype;
+		this.instrumentstate = instrumentstate;
+		this.instrumentmark = instrumentmark;
+		this.instrumentresource = instrumentresource;
+		this.uid = uid;
+	}
+
+	public int getInstrumentid() {
+		return instrumentid;
+	}
+
+	public void setInstrumentid(int instrumentid) {
+		this.instrumentid = instrumentid;
+	}
+
+	public Date getPosttime() {
+		return posttime;
+	}
+
+	public void setPosttime(Date posttime) {
+		this.posttime = posttime;
+	}
+
+	public String getInstrumentbrand() {
+		return instrumentbrand;
+	}
+
+	public void setInstrumentbrand(String instrumentbrand) {
+		this.instrumentbrand = instrumentbrand;
+	}
+
+	public String getInstrumentname() {
+		return instrumentname;
+	}
+
+	public void setInstrumentname(String instrumentname) {
+		this.instrumentname = instrumentname;
+	}
+
+	public String getInstrumenttype() {
+		return instrumenttype;
+	}
+
+	public void setInstrumenttype(String instrumenttype) {
+		this.instrumenttype = instrumenttype;
+	}
+
+	public int getInstrumentstate() {
+		return instrumentstate;
+	}
+
+	public void setInstrumentstate(int instrumentstate) {
+		this.instrumentstate = instrumentstate;
+	}
+
+	public String getInstrumentmark() {
+		return instrumentmark;
+	}
+
+	public void setInstrumentmark(String instrumentmark) {
+		this.instrumentmark = instrumentmark;
+	}
+
+	public String getInstrumentresource() {
+		return instrumentresource;
+	}
+
+	public void setInstrumentresource(String instrumentresource) {
+		this.instrumentresource = instrumentresource;
+	}
+
+	public int getUid() {
+		return uid;
+	}
+
+	public void setUid(int uid) {
+		this.uid = uid;
+	}
+
+	@Override
+	public String toString() {
+		return "Instruments [instrumentid=" + instrumentid + ", posttime="
+				+ posttime + ", instrumentbrand=" + instrumentbrand
+				+ ", instrumentname=" + instrumentname + ", instrumenttype="
+				+ instrumenttype + ", instrumentstate=" + instrumentstate
+				+ ", instrumentmark=" + instrumentmark
+				+ ", instrumentresource=" + instrumentresource + ", uid=" + uid
+				+ "]";
+	}
+
+}
